@@ -1,11 +1,30 @@
 <html>
 <head>
 	<title>Welcome</title>
+   <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async='async'></script>
+  <script>
+    var OneSignal = window.OneSignal || [];
+    OneSignal.push(["init", {
+      appId: "3f24e31b-0f46-421a-9136-e5a80bf6a6d9",
+      autoRegister: false, /* Set to true to automatically prompt visitors */
+      subdomainName: 'ajithkumarsekar',
+      /*
+      subdomainName: Use the value you entered in step 1.4: http://imgur.com/a/f6hqN
+      */
+      httpPermissionRequest: {
+        enable: true
+      },
+      notifyButton: {
+          enable: true /* Set to false to hide */
+      }
+    }]);
+  </script>
 </head>
 <body>
  <h1>Hello, World!</h1>
  <h3>Comming soon</h3>
 </body>
+
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -14,6 +33,5 @@
 
   ga('create', 'UA-98233905-1', 'auto');
   ga('send', 'pageview');
-
 </script>
 </html>
