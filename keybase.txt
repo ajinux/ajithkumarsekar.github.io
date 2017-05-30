@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/ajithkumarsekar
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://ajithkumarsekar.me
+  * I am ajithkumarsekar (https://keybase.io/ajithkumarsekar) on keybase.
+  * I have a public key ASCgNLrr2T290gbzKmsaHbZQF2kR4zcXuGFfNL_jHkSNFQo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120a034baebd93dbdd206f32a6b1a1db650176911e33717b8615f34bfe31e448d150a",
+            "host": "keybase.io",
+            "kid": "0120a034baebd93dbdd206f32a6b1a1db650176911e33717b8615f34bfe31e448d150a",
+            "uid": "7ecc0ebb3a3ea7e49399ae9b3b00f719",
+            "username": "ajithkumarsekar"
+        },
+        "service": {
+            "hostname": "ajithkumarsekar.me",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.23"
+    },
+    "ctime": 1496166559,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1496166717,
+        "hash": "76197be93a307cf67eb83dbc367ff643839cecd8a2d740e903c6e73a58b6cb4603a218a3382db66f8840910312dba1bea3421395fb186c5c32940c78faaf8990",
+        "seqno": 1129434
+    },
+    "prev": "1686c28b97ce28497827095c68c5c58aa1f3738a2158692f373454273ac0f4ca",
+    "seqno": 6,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgoDS669k9vdIG8yprGh22UBdpEeM3F7hhXzS/4x5EjRUKp3BheWxvYWTFAwF7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwYTAzNGJhZWJkOTNkYmRkMjA2ZjMyYTZiMWExZGI2NTAxNzY5MTFlMzM3MTdiODYxNWYzNGJmZTMxZTQ0OGQxNTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwYTAzNGJhZWJkOTNkYmRkMjA2ZjMyYTZiMWExZGI2NTAxNzY5MTFlMzM3MTdiODYxNWYzNGJmZTMxZTQ0OGQxNTBhIiwidWlkIjoiN2VjYzBlYmIzYTNlYTdlNDkzOTlhZTliM2IwMGY3MTkiLCJ1c2VybmFtZSI6ImFqaXRoa3VtYXJzZWthciJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoiYWppdGhrdW1hcnNla2FyLm1lIiwicHJvdG9jb2wiOiJodHRwOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4yMyJ9LCJjdGltZSI6MTQ5NjE2NjU1OSwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNDk2MTY2NzE3LCJoYXNoIjoiNzYxOTdiZTkzYTMwN2NmNjdlYjgzZGJjMzY3ZmY2NDM4MzljZWNkOGEyZDc0MGU5MDNjNmU3M2E1OGI2Y2I0NjAzYTIxOGEzMzgyZGI2NmY4ODQwOTEwMzEyZGJhMWJlYTM0MjEzOTVmYjE4NmM1YzMyOTQwYzc4ZmFhZjg5OTAiLCJzZXFubyI6MTEyOTQzNH0sInByZXYiOiIxNjg2YzI4Yjk3Y2UyODQ5NzgyNzA5NWM2OGM1YzU4YWExZjM3MzhhMjE1ODY5MmYzNzM0NTQyNzNhYzBmNGNhIiwic2Vxbm8iOjYsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAeSoq6IJNeY7T4zW54/FF/Q3PAgDxo0x/54nS9wDiJTJcendxeN4C7En/wORYeyv/7qrmDBea+8mQFRh7Jbc7AqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIEsekSQ+0dXPUPpv05c54i6z4WAMo1UXRrV4hz1/TCygo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/ajithkumarsekar
+
+==================================================================
