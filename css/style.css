@@ -1,0 +1,210 @@
+html body {
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	color: white;
+	overflow-y: hidden;
+}
+
+@font-face {
+	font-family: 'oneday';
+	src: url('oneday.otf');
+}
+
+h1 {
+	font-family: 'oneday', sans-serif;
+}
+
+.header {
+	display: table;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+
+.vert-text {
+	z-index: 2;
+	position: relative;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center
+}
+
+.particles-js-canvas-el {
+	display: block;
+	position: absolute;
+	z-index: 23 !important
+}
+
+.vert-text h1 {
+	padding: 0;
+	margin: 0;
+	font-size: 4.5em;
+	font-family: 'Poiret One', cursive
+}
+
+.profile {
+	height: 170px;
+	width: auto;
+	border-radius: 60%;
+	margin-top: 60px
+}
+
+.icons {
+	padding-left: 5px;
+	color: #fff;
+}
+
+.icons:hover {
+	color: #f44336;
+}
+
+.heading {
+	color: white;
+	font-family: 'Roboto Slab', serif;
+	text-shadow: 0 0 .313em #fff, 0 0 .625em #fff
+}
+
+.heading-2 {
+	color: rgb(220, 255, 20);
+	text-shadow: 0 0 .313em #d96459, 0 0 .625em #d96459
+}
+
+.hideIt {
+	opacity: 0
+}
+
+.showIt {
+	opacity: 1 !important;
+	-webkit-transition: all .7s ease-in-out;
+	-moz-transition: all .7s ease-in-out;
+	-o-transition: all .7s ease-in-out;
+	-ms-transition: all .7s ease-in-out;
+	transition: all .7s ease-in-out
+}
+
+#particles-js {
+	position: relative;
+	display: block;
+	z-index: 1 !important;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat !important;
+	background-image: url("../assets/bg.jpg");
+	background-size: cover !important;
+	background-position: 50% 50%;
+}
+
+.typed-cursor {
+	opacity: 1;
+	-webkit-animation: blink .7s infinite;
+	-moz-animation: blink .7s infinite;
+	animation: blink .7s infinite
+}
+
+.overlay {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: rgba(0, 0, 0, 0.4);
+}
+
+.social-media-icons {
+	font-size: 20px;
+	padding-bottom: 20px;
+}
+
+.social-media-icons a {
+	color: white;
+}
+
+.social-media-icons i {
+	padding: 14px 10px;
+}
+
+.social-media-icons a:hover .fa-linkedin,
+.social-media-icons a:active .fa-linkedin {
+	color: #0976b4;
+}
+
+.social-media-icons a:hover .fa-envelope-o,
+.social-media-icons a:active .fa-envelope-o {
+	color: #ffa930;
+}
+
+.social-media-icons a:hover .fa-github,
+.social-media-icons a:active .fa-github {
+	color: #6cc644;
+}
+
+.hvr-bounce-to-top:before {
+	background: #FFFFFF;
+}
+
+.hvr-bounce-to-top:hover,
+.hvr-bounce-to-top:focus,
+.hvr-bounce-to-top:active {
+	color: black;
+}
+
+.header-button {
+	font-size: 2.0em;
+	color: #00FFFF;
+}
+
+@keyframes blink {
+	0% {
+		opacity: 1
+	}
+	50% {
+		opacity: 0
+	}
+	100% {
+		opacity: 1
+	}
+}
+
+@-webkit-keyframes blink {
+	0% {
+		opacity: 1
+	}
+	50% {
+		opacity: 0
+	}
+	100% {
+		opacity: 1
+	}
+}
+
+@-moz-keyframes blink {
+	0% {
+		opacity: 1
+	}
+	50% {
+		opacity: 0
+	}
+	100% {
+		opacity: 1
+	}
+}
+
+@media screen and (max-width:768px) {
+	html,
+	body {
+		height: 100%;
+		width: 100%
+	}
+	.profile {
+		height: 120px
+	}
+	.icons {
+		font-size: 30px;
+		padding-left: 5px
+	}
+	.vert-text h1 {
+		font-size: 2.3em
+	}
+	h2 {
+		font-size: 1.4em
+	}
+}

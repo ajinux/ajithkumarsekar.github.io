@@ -1,18 +1,106 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<title>Welcome</title>
+  <meta charset="utf-8">
+  <title>Ajithkumar sekar | Developer</title>
+  <link rel="apple-touch-icon" sizes="57x57" href="assets/fav/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="assets/fav/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="assets/fav/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="assets/fav/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="assets/fav/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="assets/fav/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="assets/fav/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="assets/fav/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/fav/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/fav/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/fav/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="assets/fav/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/fav/favicon-16x16.png">
+  <link rel="manifest" href="assets/fav/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="assets/fav/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <!-- meta tags -->
+  <meta name="description" content="Welcome to my profile page - Ajithkumar sekar">
+  <meta name="author" content="Ajithkumar">
+  <meta name="keywords" content="Ajithkumar sekar, Ajith kumar, Ajithkumar, profile">
+  <meta name="robots" content="archive, follow, imageindex, index">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel=stylesheet href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="css/hover-min.css">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
+
 <body>
- <h2 style="text-align:center">Hello, World! - website under construction</h2>
+  <div class="overlay">
+    <div id="top" class="header">
+      <div class="vert-text">
+        <!--
+        <a href=#> <img src=assets/profile_pic.jpg alt="Profile Picture" class=profile> </a>
+        -->
+        <h1 class="animated bounceInDown">Hey <font color="#2ecc71"> there!</font></h1>
+        <h1> I'm <span class=element></span></h1>
+        <h2 class="hideIt heading-2">| Backend Developer | Python Enthusiast | Geek |</h2>
+        <h2 class="animated zoomIn container container-inner">{ <span>Contact </span>}<font color="#2ecc71"> ME</font>.</h2>
+        <div class="social-media-icons">
+          <a href="mailto:ajithkumarsekark@gmail.com" target="_blank"><i class="fa fa-envelope-o fa-2x animated bounceInUp" aria-hidden="true"></i></a>
+          <a href="https://github.com/ajithkumarsekar" target="_blank"><i class="fa fa-github fa-2x animated bounceInUp" aria-hidden="true"></i></a>
+          <a href="https://www.linkedin.com/in/ajithkumar-sekar-b316a0bb/" target="_blank"><i class="fa fa-linkedin fa-2x animated bounceInUp" aria-hidden="true"></i></a>
+        </div>
+        <a href="Ajithkumar_Resume.pdf" target="_blank" class="header-button bouncein bounceup hvr-bounce-to-top btn btn-lg animated infinite pulse">Resume</a>
+      </div>
+    </div>
+    <!-- particles.js container -->
+    <div id="particles-js"></div>
+  </div>
 </body>
 
+<!-- scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://use.fontawesome.com/10192f0599.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="js/particles.js"></script>
+<script src="js/app.js"></script>
+<script src="js/typed.js"></script>
+
 <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  $(function() {
+    $(".element").typed({
+      strings: ["a Backend Developer.", "a Python Enthusiast.", "AjithKumar"],
+      typeSpeed: 50,
+      startDelay: 700,
+      backDelay: 250,
+      callback: function() {
+        lift();
+      }
+    });
+
+    function lift() {
+      $('.element').addClass("heading").fadeIn(150).fadeOut(50).fadeIn(100).fadeOut(50).fadeIn(100).fadeOut(50).fadeIn(1400);
+      $('.hideIt').delay(3800).addClass('showIt');
+    }
+  });
+</script>
+<script>
+  (function(i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function() {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
   ga('create', 'UA-98233905-1', 'auto');
   ga('send', 'pageview');
 </script>
+
 </html>
