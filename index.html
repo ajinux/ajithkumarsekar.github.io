@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <title>Ajithkumar sekar | Developer</title>
@@ -67,7 +68,21 @@
 <script src="js/particles.js"></script>
 <script src="js/app.js"></script>
 <script src="js/typed.js"></script>
-
+<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async='async'></script>
+<script>
+  var OneSignal = window.OneSignal || [];
+  OneSignal.push(["init", {
+    appId: "06b97a23-e2be-4884-ad00-6e134e7f2426",
+    autoRegister: true,
+    subdomainName: 'ajithkumar',
+    httpPermissionRequest: {
+      enable: true
+    },
+    notifyButton: {
+      enable: true
+    }
+  }]);
+</script>
 <script>
   $(function() {
     $(".element").typed({
