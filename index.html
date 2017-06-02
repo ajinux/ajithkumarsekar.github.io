@@ -68,6 +68,7 @@
 <script src="js/particles.js"></script>
 <script src="js/app.js"></script>
 <script src="js/typed.js"></script>
+<!--
 <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async='async'></script>
 <script>
   var OneSignal = window.OneSignal || [];
@@ -82,6 +83,17 @@
       enable: true
     }
   }]);
+</script>
+-->
+
+<script>
+ (function() {
+ var interakt = document.createElement('script');
+ interakt.type = 'text/javascript'; interakt.async = true;
+ interakt.src = "//cdn.interakt.co/interakt/e0bbfbaa94b66280b6aba9108883a570.js";
+ var scrpt = document.getElementsByTagName('script')[0];
+ scrpt.parentNode.insertBefore(interakt, scrpt);
+ })()
 </script>
 <script>
   $(function() {
