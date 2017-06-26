@@ -137,6 +137,11 @@ h1 {
 	color: #6cc644;
 }
 
+.social-media-icons a:hover .fa-quora,
+.social-media-icons a:active .fa-quora {
+	color: #B92B27;
+}
+
 .hvr-bounce-to-top:before {
 	background: #FFFFFF;
 }
